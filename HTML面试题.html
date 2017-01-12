@@ -1,0 +1,346 @@
+<!DOCTYPE html><html><head><title>HTML面试题</title><meta charset='utf-8'><link href='https://dn-maxiang.qbox.me/res-min/themes/marxico.css' rel='stylesheet'><style>
+.note-content  {font-family: 'Helvetica Neue', Arial, 'Hiragino Sans GB', STHeiti, 'Microsoft YaHei', 'WenQuanYi Micro Hei', SimSun, Song, sans-serif;}
+
+</style></head><body><div id='preview-contents' class='note-content'>
+                        
+                    
+
+
+
+<h4 id="html面试题">HTML面试题</h4>
+
+<h5 id="1xhtml和html有什么区别">1、XHTML和HTML有什么区别</h5>
+
+<blockquote>
+  <p>HTML是一个钟基本的WEB网页设计语言，XHTML是一个基于XML的置标语言最主要的不同 <br>
+  XHTM元素必须被正确地嵌套 <br>
+  XHTML元素必须被关闭 <br>
+  标签名必须用小写字母 <br>
+  XHTML文档必须拥有根元素</p>
+</blockquote>
+
+<h5 id="2前端页面有哪几层构成分别是什么作用是什么">2、前端页面有哪几层构成，分别是什么？作用是什么？</h5>
+
+<blockquote>
+  <p>结构层 HTML <br>
+  表示层CSS <br>
+  行为层JavaScript</p>
+</blockquote>
+
+
+
+<h5 id="3你做的页面在哪些浏览器测试过这些浏览器分别是什么内核">3、你做的页面在哪些浏览器测试过？这些浏览器分别是什么内核？</h5>
+
+<blockquote>
+  <p>IE(IE内核) <br>
+  FireFox(Gecko) <br>
+  Chrome(webkit) <br>
+  Opera(Presto(已废弃)，Blink) <br>
+  Safari(webkit)</p>
+</blockquote>
+
+
+
+<h5 id="4什么是语义化html">4、什么是语义化HTML</h5>
+
+<blockquote>
+  <p>直观的认识标签对于搜索引擎的抓取有好处，用正确的标签做正确的事情 <br>
+  html语义化就是让页面内容结构化，便于对浏览器，搜索引擎解析；在没有CSS样式的情况下也以一种文档格式显示，并且是容易阅读的。搜索引擎的爬虫依赖于标记来确定上下文和各关键字的权重，利于SEO <br>
+  使阅读源代码的人对网站更容易将网站分块，便于阅读维护理解。</p>
+</blockquote>
+
+
+
+<h5 id="5html5为什么只需要doctype-html">5、HTML5为什么只需要!DOCTYPE HTML?</h5>
+
+<blockquote>
+  <p>HTML不是基于SGML,因此不需要对DTD进行引用，但是需要doctype来规范浏览器的行为（让浏览器按照它们应该的方式来运行）; 而HTML4.01基于SGML，所以需要对DTD进行引用，才能告知浏览器文档类型。</p>
+</blockquote>
+
+
+
+<h5 id="6doctype作用标准模式和兼容模式各有什么区别">6、Doctype作用？标准模式和兼容模式各有什么区别</h5>
+
+<blockquote>
+  <p>!DOCTYPE声明位于HTML文档中的第一行，处于html标签之前。告知浏览器的解析器用什么文档标准来解析这个文档。DOCTYP不存在或不正确会导致文档以兼容模式呈现。 <br>
+  标准模式的排版和JS运作模式都是以改浏览器支持的最高标准运行。在兼容模式中，页面以宽松的向后兼容的方式来显示，模拟老式浏览器的行为以防止站点无法工作。</p>
+</blockquote>
+
+
+
+<h5 id="7html5有哪些新特性移除了哪些元素如何处理html5新标签的浏览器兼容问题如何区分html和html5">7、HTML5有哪些新特性、移除了哪些元素？如何处理HTML5新标签的浏览器兼容问题?如何区分HTML和HTML5？</h5>
+
+<blockquote>
+  <p>HMLT5现在已经不是SGML的子集，主要是关于图像，位置，存储，多任务等功能的增加。 <br>
+  绘画canvas <br>
+  用于媒介回放的video和audio元素 <br>
+  本地离线存储localStorage长期存储数据，浏览器关闭后数据不丢失 <br>
+  语义化更好的内容元素。比如article，footer,header,nav,section <br>
+  表单控件，Calendar，date，time，email，url，search <br>
+  新的技术webworker，websockt,Geolocation元素 <br>
+  纯表现的元素：basefont,big,center,font,s,strike,tt,u; <br>
+  对可用性产生负面影响的元素：frame,frameset,notframes;支持HTML5标签 <br>
+  IE8/IE7/IE6支持通过document.createElement方法产生的标签，可以利用这一特性让这些浏览器支持HTML5新标签 <br>
+  浏览器支持新标签后，还需要将标签默认的样式</p>
+</blockquote>
+
+
+
+<h4 id="css面试题-1">CSS面试题</h4>
+
+
+
+<h5 id="1简要说一下css元素分类空元素有哪些">1、简要说一下CSS元素分类？空元素有哪些？</h5>
+
+<blockquote>
+  <p>块元素：div，p,h1-h6,form,ul,li; <br>
+  行内元素： span,a ,label,input,img,strong,em; <br>
+  常见的空元素:br hr input link meta <br>
+  不常见的空元素：area，base，col，command，embed，keygen，params，source，track，wbr</p>
+</blockquote>
+
+<h5 id="2css隐藏元素的几种方法">2、CSS隐藏元素的几种方法</h5>
+
+<blockquote>
+  <p>Opacity：元素本身依然占据自己的位置并对网页的布局起作用。它也将响应用户交互 <br>
+  Visibility：与opacity唯一不同的是它不会响应任何用户的交互。此外，元素在读屏软件中也会被隐藏。 <br>
+  Display：display设为none任何元素直接打用户交互操作都不可能生效。此外，读屏软件也不会读到元素的内容。这种方式产生的效果就像元素完全不存在一样。 <br>
+  position:不会影响布局，能让元素保持可以操作。 <br>
+  Clip-path：clip-path属性还没有IE或者Edge下完全支持。如果要在你的clip-path使用外部的SVG文件，浏览器支持度还要低。</p>
+</blockquote>
+
+
+
+<h5 id="5css清除浮动的几种方法">5、CSS清除浮动的几种方法</h5>
+
+<blockquote>
+  <p>使用带clear属性的空元素 <br>
+  使用CSS的overflow属性 <br>
+  使用CSSd :after伪元素 <br>
+  使用邻接元素处理</p>
+</blockquote>
+
+
+
+<h5 id="6css居中包括水平居中和垂直居中">6、CSS居中（包括水平居中和垂直居中）</h5>
+
+<blockquote>
+  <h4 id="内联元素">内联元素</h4>
+  
+  <p><strong>水平居中设置</strong> <br>
+  (1)行内元素 <br>
+          设置text-align:center <br>
+  (2)Flex布局 <br>
+          设置display：flex；justify-content:center；（灵活运用，支持Chrome，Firefox,IE9+）</p>
+  
+  <p><strong>垂直居中设置</strong> <br>
+  (1)父元素高度确定的单行文本（内联元素） <br>
+          设置height=line-height <br>
+  (2)父元素高度确定的多行文本（内联元素） <br>
+          a: 插入table（插入方法和水平居中一样），然后设置vertical-align:middle <br>
+          b: 先设置display：table-cell再设置vertical-align：middle</p>
+  
+  <h4 id="块元素居中">块元素居中</h4>
+  
+  <p><strong>水平居中设置</strong> <br>
+  (1)定宽块状元素 <br>
+          设置左右margin值为auto <br>
+  (2)不顶宽块状元素 <br>
+          a: 在元素外加入table标签（完整的包括table,tbody,tr,td）,该元素写在td内，然后设置margin的值为auto <br>
+          b:给该元素设置display:inine方法 <br>
+          c:父元素设置position：relative和left为50%,子元素设置position:relative和left:50%</p>
+  
+  <p><strong>垂直居中设置</strong> <br>
+          使用position：absolute(fixed)，设置left,top,margin-left,margi-top属性 <br>
+          利用position:fixed(absolute)属性，margin：auto这个必须不要忘记了 <br>
+          使用display:table-cell属性使内容垂直居中 <br>
+          使用css3的新属性transform：translate(x,y)属性 <br>
+          使用：before元素</p>
+</blockquote>
+
+<h5 id="7写出几种ie6-bug的解决方法">7、写出几种IE6 BUG的解决方法</h5>
+
+<blockquote>
+  <p>双边距BUG  float引起的，使用display <br>
+  3像素问题  使用float引起的，使用display：inline-3px <br>
+  超链接hover点击后失效  使用正确的书写顺序 link visited  hover  active <br>
+  le z-index问题给父级添加position:relative <br>
+  png透明：使用js代码修改 <br>
+  min-height最小高度 ！Import解决 <br>
+  select 在IE6下使用iframe嵌套 <br>
+  为什么没有办法定义1px左右的宽度容器（IE6默认的行高造成的，使用over:hidden,zoom:0.08 line-height:1px）</p>
+</blockquote>
+
+
+
+<h5 id="8页面导入样式是使用link和import有什么区别">8、页面导入样式是，使用link和@import有什么区别</h5>
+
+<blockquote>
+  <p>link属于XHTML标签，除了加载CSS外，还能用于定义RSS，定义rel连接属性等作用；而@import是css提供的，只能用于加载css <br>
+  页面被加载时，link会同时被加载，而@import引用的css会等到页面被加载完再加载 <br>
+  import是css2.1提出的，只能IE5以上才能被识别，而link是XHTML标签，无兼容问题。</p>
+</blockquote>
+
+
+
+<h5 id="9介绍一位css的盒子模型">9、介绍一位CSS的盒子模型</h5>
+
+<blockquote>
+  <p>有两种：一种是IE盒子模型，一种是W3C盒子模型；IE的content的部分包含了border和padding <br>
+  盒模型：内容（content）,填充（padding）,边界（margin）,边框（border）</p>
+</blockquote>
+
+
+
+<h5 id="10css选择器有哪些哪些属性可以继承优先级算法如何计算css新增伪类有哪些">10、CSS选择器有哪些？哪些属性可以继承？优先级算法如何计算？CSS新增伪类有哪些?</h5>
+
+<blockquote>
+  <p>id选择器（#myid） <br>
+  类选择器( . myclass) <br>
+  标签选择器（div,h1,p） <br>
+  相邻选择器（h1+p） <br>
+  子选择器（ul&gt;li） <br>
+  后代选择器（li a） <br>
+  通配符选择器（*） <br>
+  属性选择器（a[rel=”extrnal”]） <br>
+  伪类选择器（a:hoer,li:nth-chind(1)）</p>
+  
+  <p>可继承的属性 <br>
+      font-size, font-family, color, ul ,li ,dl ,dd dt <br>
+  不可继承的属性 <br>
+      border ， margin, padding, width, height <br>
+  优先级就近原则，同权重情况下样式定义最近者为准 <br>
+  优先级为:!import&gt;id&gt;class&gt;tag <br>
+      import比内联优先级高</p>
+</blockquote>
+
+
+
+<h5 id="11css3有哪些新特性">11、CSS3有哪些新特性？</h5>
+
+<blockquote>
+  <p>圆角  border-radius:8px <br>
+  阴影 box-shaow:10px 10px #e7e7e7 <br>
+  文字阴影 text-shaow <br>
+  线性渐变 gradient <br>
+  旋转 transfor <br>
+  transform:roate(45deg) scale(0.5,0.8) translate(0px,-20px) skew(-9deg,0deg) <br>
+          旋转， 缩放，平移，倾斜  </p>
+</blockquote>
+
+
+
+<h5 id="12display有哪些值说一下他们的作用">12、display有哪些值，说一下他们的作用</h5>
+
+<table>
+<thead>
+<tr>
+  <th>display</th>
+  <th align="center">值说明</th>
+</tr>
+</thead>
+<tbody><tr>
+  <td>none</td>
+  <td align="center">不显示</td>
+</tr>
+<tr>
+  <td>block</td>
+  <td align="center">块类型。默认宽度为父元素宽度，可设置宽高，换行显示</td>
+</tr>
+<tr>
+  <td>inline</td>
+  <td align="center">行业元素类型。默认宽高为内容的宽高，<strong>不可设置宽高</strong>，同行显示</td>
+</tr>
+<tr>
+  <td>inline-block</td>
+  <td align="center">默认宽高为内容的宽高，可设置宽高，同行显示</td>
+</tr>
+<tr>
+  <td>list-item</td>
+  <td align="center">像块级元素一样显示，并添加样式列表标记</td>
+</tr>
+<tr>
+  <td>table</td>
+  <td align="center">此元素会作为块级表格来显示</td>
+</tr>
+<tr>
+  <td>inherit</td>
+  <td align="center">规定应该从父元素继承display属性的值</td>
+</tr>
+</tbody></table>
+
+
+
+
+<h5 id="13position的值relative和absolute定位的原点是什么">13、position的值relative和absolute定位的原点是什么？</h5>
+
+<blockquote>
+  <p><strong>absolute</strong> <br>
+  生成绝对定位的元素，相对于值不为static的第一个父元素进行定位 <br>
+  <strong>fixed(老IE不支持)</strong> <br>
+  生成绝对定位的元素，相对于浏览器窗口进行定位 <br>
+  <strong>relative</strong> <br>
+  生成相对定位的属性，相对于其正常位置进行定位 <br>
+  <strong>static</strong> <br>
+  默认值。没有定位元素出现在正常流中（忽略top,bottom,left,right,z-index） <br>
+  <strong>inherit</strong> <br>
+  规定从父元素继承position属性的值</p>
+</blockquote>
+
+
+
+<h5 id="14css多列等高如何实现">14、CSS多列等高如何实现</h5>
+
+<blockquote>
+  <p>利用padding-bootm和margin-bottom正负值相抵； <br>
+  设置父容器设置超出隐藏（overflow:hiden），这样子父容器的高度就还是它里面的列没有设定padding-bottom时的高度，当它里面的任 一列高度增加了，则父容器的高度被撑到里面最高那列的高度，其他比这列矮的列会用它们的padding-bottom补偿这部分高度差</p>
+</blockquote>
+
+
+
+<h5 id="15经常遇到的浏览器的兼容性有哪些原因解决方法是什么常用hack的技巧">15、经常遇到的浏览器的兼容性有哪些？原因，解决方法是什么，常用hack的技巧 ？</h5>
+
+<blockquote>
+  <ul><li><p>png24位的图片在iE6浏览器上出现背景，解决方案是做成PNG8.</p></li>
+  <li><p>浏览器默认的margin和padding不同。解决方案是加一个全局的*{margin:0;padding:0;}来统一。</p></li>
+  <li><p>IE6双边距bug:块属性标签float后，又有横行的margin情况下，在ie6显示margin比设置的大。</p></li>
+  </ul>
+  
+  <p>浮动ie产生的双倍距离 #box{ float:left; width:10px; margin:0 0 0 100px;}</p>
+  
+  <p>这种情况之下IE会产生20px的距离，解决方案是在float的标签样式控制中加入 ——<em>display:inline;将其转化为行内属性。(</em>这个符号只有ie6会识别)</p>
+  
+  <p>渐进识别的方式，从总体中逐渐排除局部。</p>
+  
+  <p>首先，巧妙的使用“\9”这一标记，将IE游览器从所有情况中分离出来。 <br>
+    接着，再次使用“+”将IE8和IE7、IE6分离开来，这样IE8已经独立识别。</p>
+  
+  <p>css <br>
+        .bb{ <br>
+            background-color:#f1ee18;/<em>所有识别</em>/ <br>
+            .background-color:#00deff\9; /<em>IE6、7、8识别</em>/ <br>
+            +background-color:#a200ff;/<em>IE6、7识别</em>/ <br>
+            _background-color:#1e0bd1;/<em>IE6识别</em>/ <br>
+        }</p>
+  
+  <ul><li><p>IE下,可以使用获取常规属性的方法来获取自定义属性,也可以使用getAttribute()获取自定义属性; <br>
+  Firefox下,只能使用getAttribute()获取自定义属性。 <br>
+  解决方法:统一通过getAttribute()获取自定义属性。</p></li>
+  <li><p>IE下,even对象有x,y属性,但是没有pageX,pageY属性; <br>
+  Firefox下,event对象有pageX,pageY属性,但是没有x,y属性。</p></li>
+  <li><p>解决方法：（条件注释）缺点是在IE浏览器下可能会增加额外的HTTP请求数。</p></li>
+  <li><p>Chrome 中文界面下默认会将小于 12px 的文本强制按照 12px 显示, <br>
+  可通过加入 CSS 属性 -webkit-text-size-adjust: none; 解决。</p></li>
+  </ul>
+  
+  <p>超链接访问过后hover样式就不出现了 被点击访问过的超链接样式不在具有hover和active了解决方法是改变CSS属性的排列顺序: <br>
+  L-V-H-A :  a:link {} a:visited {} a:hover {} a:active {}</p>
+</blockquote>
+
+
+
+<h5 id="17-css定义的权重">17、 css定义的权重</h5>
+
+
+
+<pre class="prettyprint hljs-dark"><code class="hljs css"><span class="hljs-tag">css</span>以下是权重的规则：标签的权重为1，<span class="hljs-tag">class</span>的权重为10，<span class="hljs-tag">id</span>的权重为100，以下例子是演示各种定义的权重值：<br><br><span class="hljs-comment">/*权重为1*/</span><br><span class="hljs-tag">div</span><span class="hljs-rules">{<br>}</span><br><span class="hljs-comment">/*权重为10*/</span><br><span class="hljs-class">.class1</span><span class="hljs-rules">{<br>}</span><br><span class="hljs-comment">/*权重为100*/</span><br><span class="hljs-id">#id1</span><span class="hljs-rules">{<br>}</span><br><span class="hljs-comment">/*权重为100+1=101*/</span><br><span class="hljs-id">#id1</span> <span class="hljs-tag">div</span><span class="hljs-rules">{<br>}</span><br><span class="hljs-comment">/*权重为10+1=11*/</span><br><span class="hljs-class">.class1</span> <span class="hljs-tag">div</span><span class="hljs-rules">{<br>}</span><br><span class="hljs-comment">/*权重为10+10+1=21*/</span><br><span class="hljs-class">.class1</span> <span class="hljs-class">.class2</span> <span class="hljs-tag">div</span><span class="hljs-rules">{<br>}</span><br><br>如果权重相同，则最后定义的样式会起作用，但是应该避免这种情况出现<br></code></pre></div></body></html>
